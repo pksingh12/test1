@@ -1,6 +1,6 @@
 ---
 - name: Remove index.html for host
-  command: docker run -d -P prakashsingh08/mynode:v1
+  command: docker run -d -P prakashsingh08/mynode:{{ release_tag }}
   register: isitdone
 
 - debug: msg="{{ isitdone.stdout }}"
