@@ -1,4 +1,4 @@
 ---
-- hosts: nodejs-app
+- hosts: nodejsserver
   roles:
    - role: deploynodejs
