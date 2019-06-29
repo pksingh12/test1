@@ -17,7 +17,7 @@
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 [nodejsservers]
-34.68.39.133
+34.67.237.206
 #[webservers]
 #alpha.example.org
 #beta.example.org
